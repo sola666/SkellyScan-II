@@ -2,147 +2,190 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Skelly Builder 0.1.0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skelly Builder 0.2.0</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="inputs.css">
     <link rel="stylesheet" href="textinput.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
-<body style="padding:25px;margin-top:1em;">
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Skelly Builder 0.2.0</h1>
+            <p class="subtitle">Workflow Creator</p>
+        </header>
 
-<div>
-    <div>
-        <header1>Skelly Builder 0.1.0 - Feb 2022</header1>
-    </div>
-</div>
-<div>
-    <subheader1>Workflow Creator</subheader1>
-</div>
-</span>
-<!--<div class="wrapper">-->
-<!--    <div class="first">-->
-<!--        <subheader1>SkellyScan Location</subheader1>-->
-<!--    </div>-->
-<!--    <div class="second">-->
-<!--        <form action="" method="POST" enctype="multipart/form-data">-->
-<!--            <input type="file" name="file" id="file"/>-->
-<!--            <label for="file" class="btn-3">-->
-<!--                <span>select</span>-->
-<!--            </label>-->
-<!--        </form>-->
-<!--    </div>-->
-<!--</div>-->
-<!--<script type="text/javascript">-->
-<!--    import {working} from './scripts/readinput.js';-->
-<!--    document.getElementById("file").onchange = function (e) {-->
-<!--        const x = document.getElementById("file").value;-->
-<!--        document.getElementById("workflowtool").value = x;-->
-<!--        alert('yes');-->
-<!--        this.value = null;-->
-<!--        working();-->
-<!--    }-->
-<!--</script>-->
+        <div class="workflow-container">
+            <div class="tool-selector">
+                <div class="tool-card">
+                    <h2>
+                        <img src="assets/bone.png" alt="bone" width="25" height="25"/>
+                        Action <span id="actionCounter">1</span>
+                    </h2>
+                    <div class="tool-inputs">
+                        <div class="tool-selection">
+                            <h3>Select Tool</h3>
+                            <div class="file-input-wrapper">
+                                <input type="file" id="toolFile" accept=".py,.exe,.sh"/>
+                                <label for="toolFile" class="btn-select">
+                                    <i class="fas fa-file-code"></i>
+                                    <span>Select Tool</span>
+                                </label>
+                            </div>
+                            <div id="selectedTool" class="selected-tool"></div>
+                        </div>
 
-<div class="card card--inverted">
-    <h2>
-        <img src="assets/bone.png"
-             width="25"
-             height="25"/>
-        Action 1...
-    </h2>
-    <div class="fw">
-        <div class="ff">
-            <subheader1>Select Tool</subheader1>
-            <form action="" method="POST" enctype="multipart/form-data">
-                <input type="file" name="file" id="file"/>
-                <label for="file" class="btn-3">
-                    <span>select</span>
-                </label>
-            </form>
-        </div>
-<!--        <script>-->
-<!--            // import working from './scripts/readinput.js';-->
+                        <div class="arrow">🠮</div>
 
-<!--            document.getElementById("file").onchange = function (e) {-->
-<!--                const x = document.getElementById("file").value;-->
-<!--                if (x.length !== 0) {-->
-<!--                    document.getElementById("workflowtool").value = x.replace("C:\\fakepath\\", "") + " ";-->
-<!--                    this.value = null;-->
-<!--                }-->
-<!--                ;-->
-<!--                // var fReader = new FileReader();-->
-<!--                // var input = document.getElementById("file");-->
-<!--                // fReader.readAsDataURL(input.files[0]);-->
-<!--                // fReader.onloadend = function (event) {-->
-<!--                //     document.getElementById("workflowtool").value = event.target.result;-->
-<!--                // }-->
-<!--                // working();-->
-<!--            };-->
-<!--        </script>-->
-        <div class="ar">🠮
-        </div>
-        <div class="fs">
-            <subheader1>Add Parameters</subheader1>
-            <div>
-
-                <label class="input">
-                    <input class="input__field" name="workflowtool" id="workflowtool" type="text"
-                           placeholder="Workflow Parameters..."
-                           value=""/>
-                    <span class="input__label">Workflow Definition</span>
-                </label>
-                <div style="margin-top: -2.75em;width:200px; position: relative; margin-left: 75%">
-                    <div class="button-group" style="margin-top: -.35em;">
-                        <button type="button" onclick='addArgs()'>Save</button>
+                        <div class="parameter-input">
+                            <h3>Add Parameters</h3>
+                            <div class="input-group">
+                                <label class="input">
+                                    <input class="input__field" id="workflowParams" type="text" 
+                                           placeholder="Workflow Parameters..."/>
+                                    <span class="input__label">Workflow Definition</span>
+                                </label>
+                                <div class="button-group">
+                                    <button type="button" class="btn-save" onclick="addTool()">
+                                        <i class="fas fa-save"></i> Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <script type="text/javascript">
-                    let args = 1
+            </div>
 
-                    function addArgs() {
-                        const toolName = document.getElementById("file").value.replace("C:\\fakepath\\", ".\\engine\\");
-                        const thisTask = document.getElementById("workflowtool").value
-                        document.getElementById("file").value = null;
-                        document.getElementById("workflowtool").value = null;
-                        const addTask = `[${args}]\ntool=${toolName}\ntask=${thisTask}\n`
-                        document.getElementById("ParameterBox").value += addTask;
-                        args += 1;
-                    }
-                </script>
+            <div class="workflow-definition">
+                <h3>Workflow Definition</h3>
+                <div class="definition-container">
+                    <textarea id="workflowDefinition" rows="10" placeholder="Your workflow definition will appear here..."></textarea>
+                    <div class="definition-actions">
+                        <button type="button" class="btn-preview" onclick="previewWorkflow()">
+                            <i class="fas fa-eye"></i> Preview
+                        </button>
+                        <button type="button" class="btn-save-workflow" onclick="saveWorkflow()">
+                            <i class="fas fa-file-export"></i> Save Workflow
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <div id="previewModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Workflow Preview</h2>
+                <pre id="previewContent"></pre>
+            </div>
+        </div>
+
+        <div id="successAnimation" class="success-animation">
+            <audio id="xyloSound" src="assets/xylophone.mp3"></audio>
+            <div class="bone-animation">💀</div>
+        </div>
     </div>
-</div>
-<div>
-    <subheader1>Workflow Definition</subheader1>
-</div>
-<div>
-    <textarea name="ParameterBox" id="ParameterBox" rows="10" cols="70"></textarea></div>
-<div class="button-group" style="margin-top: -.35em;">
-    <button type="button" style="color:white;" onclick='showBonyboy()'>.ini</button>
-</div>
-<script type="text/javascript">
 
-    function showBonyboy() {
-        let xylo = document.getElementById("xylo");
-        setTimeout(() => {
-            xylo.play();
-        },600);
-        let bb = document.getElementById("boneboy");
-        bb.classList.remove("success");
-        bb.classList.add("success");
-        document.getElementById("boneboy").style.display="block";
-        setTimeout(() => {
-            document.getElementById("boneboy").style.display = "none";
-            xylo.stop();
-        }, 4000);
-    }
-</script>
-<div class="success" id="boneboy" name="boneboy" style="display:none">
-    <audio id="xylo" src="assets/xylophone.mp3"></audio>
+    <script>
+        let actionCounter = 1;
+        let workflowTools = [];
 
-</div>
+        function addTool() {
+            const toolFile = document.getElementById("toolFile");
+            const params = document.getElementById("workflowParams");
+            
+            if (!toolFile.value) {
+                showNotification("Please select a tool first!", "error");
+                return;
+            }
+
+            const toolName = toolFile.value.replace("C:\\fakepath\\", ".\\engine\\");
+            const toolParams = params.value;
+            
+            const toolEntry = `[${actionCounter}]\ntool=${toolName}\ntask=${toolParams}\n`;
+            document.getElementById("workflowDefinition").value += toolEntry;
+            
+            // Reset inputs
+            toolFile.value = "";
+            params.value = "";
+            
+            // Update counter
+            actionCounter++;
+            document.getElementById("actionCounter").textContent = actionCounter;
+            
+            showNotification("Tool added successfully!", "success");
+        }
+
+        function previewWorkflow() {
+            const modal = document.getElementById("previewModal");
+            const content = document.getElementById("workflowDefinition").value;
+            document.getElementById("previewContent").textContent = content;
+            modal.style.display = "block";
+        }
+
+        function saveWorkflow() {
+            const content = document.getElementById("workflowDefinition").value;
+            if (!content) {
+                showNotification("No workflow to save!", "error");
+                return;
+            }
+
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `workflow_${new Date().toISOString().split('T')[0]}.ini`;
+            a.click();
+            window.URL.revokeObjectURL(url);
+
+            showNotification("Workflow saved successfully!", "success");
+            playSuccessAnimation();
+        }
+
+        function showNotification(message, type) {
+            const notification = document.createElement('div');
+            notification.className = `notification ${type}`;
+            notification.textContent = message;
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.remove();
+            }, 3000);
+        }
+
+        function playSuccessAnimation() {
+            const animation = document.getElementById("successAnimation");
+            const sound = document.getElementById("xyloSound");
+            
+            animation.style.display = "block";
+            sound.play();
+            
+            setTimeout(() => {
+                animation.style.display = "none";
+                sound.pause();
+                sound.currentTime = 0;
+            }, 4000);
+        }
+
+        // Modal close functionality
+        document.querySelector('.close').onclick = function() {
+            document.getElementById("previewModal").style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            const modal = document.getElementById("previewModal");
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        // File input handling
+        document.getElementById("toolFile").onchange = function(e) {
+            const fileName = this.value.split('\\').pop();
+            document.getElementById("selectedTool").textContent = fileName;
+        }
+    </script>
 </body>
-
-
 </html>

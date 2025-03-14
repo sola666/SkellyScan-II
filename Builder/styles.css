@@ -1,101 +1,360 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Righteous&display=swap');
 @import url("https://rsms.me/inter/inter.css");
-@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+:root {
+    --primary-color: #271a2e;
+    --secondary-color: #6d2f79;
+    --accent-color: #a120a8;
+    --text-color: #ffffff;
+    --subtext-color: #ecc673;
+    --error-color: #ff4444;
+    --success-color: #00C851;
+    --card-bg: #2d1f3d;
+}
 
 body {
-    background: #271a2e
+    background: var(--primary-color);
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
 }
 
-header1 {
-    alignment: left;
-    /*padding-left: 2em;*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title {
     font-family: "Press Start 2P";
-    font-size: 25px;
-    color: white;
-    opacity: 100%;
-    /*text-shadow: 0em 0em 0.3em #b443d0;*/
+    font-size: 2.5em;
+    color: var(--text-color);
     text-shadow: 0 0 7px #fff,
-    0 0 10px #6d2f79,
-    0 0 21px #6d2f79,
-    0 0 42px #a120a8,
-    0 0 82px #a120a8;
-    /*0 0 92px #a120a8,*/
-    /*0 0 102px #a120a8,*/
-    /*0 0 151px #a120a8;*/
+                 0 0 10px var(--secondary-color),
+                 0 0 21px var(--secondary-color),
+                 0 0 42px var(--accent-color),
+                 0 0 82px var(--accent-color);
+    margin: 0;
 }
 
-div {
-    margin-top: 1em
+.subtitle {
+    font-family: "Righteous";
+    font-size: 1.2em;
+    color: var(--subtext-color);
+    margin: 10px 0;
 }
 
-subheader1 {
-    alignment: left;
+.workflow-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tool-card {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tool-card h2 {
     font-family: "Press Start 2P";
-    font-size: 14px;
-    alignment: left;
-    /*padding-left: 3em;*/
-    font-weight: 450;
-    text-align: left;
-    color: #ecc673;
+    font-size: 1.2em;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
-.wrapper {
-    width: 1000px;
-    /*padding-left: 2em;*/
-    overflow: hidden; /* will contain if #first is longer than #second */
-    text-align: left;
+.tool-inputs {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-.first {
-    width: 270px;
-    float: left; /* add this */
-    text-align: center;
+.tool-selection, .parameter-input {
+    flex: 1;
 }
 
-.second {
-    float: left; /* add this */
-    overflow: hidden; /* if you don't want #second to wrap below #first */
+.tool-selection h3, .parameter-input h3 {
+    font-family: "Press Start 2P";
+    font-size: 0.8em;
+    color: var(--subtext-color);
+    margin-bottom: 15px;
 }
 
-.fw {
-    width: 1000px;
-    /*padding-left: 2em;*/
-    overflow: hidden; /* will contain if #first is longer than #second */
-    text-align: left;
+.file-input-wrapper {
+    position: relative;
+    margin-bottom: 15px;
 }
 
-.ff {
-    align-content: center;
-    /*margin-top: 5em;*/
-    padding-top: 1em;
-    /*width: 150px;*/
-    float: left; /* add this */
-    text-align: center;
+.file-input-wrapper input[type="file"] {
+    display: none;
 }
 
-.fs {
-    padding-left: 4em;
-    /*width: 800px;*/
-    /*float: left; !* add this *!*/
-    overflow: hidden; /* if you d   on't want #second to wrap below #first */
+.btn-select {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: var(--secondary-color);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.ar {
-    font-size: 100px;
-    float: left;
-    color: #d09510;
-    padding-left: 0.7em;
-    margin-top: 0.14em;
-    /*opacity: 15%;*/
-    /*text-shadow: 0 0 7px #fff,*/
-    /*0 0 10px #6d2f79,*/
-    /*0 0 21px #6d2f79;*/
-    /*0 0 42px #a120a8,*/
-    /*0 0 82px #a120a8;*/
+.btn-select:hover {
+    background: var(--accent-color);
+    transform: translateY(-2px);
+}
+
+.selected-tool {
+    font-family: "Press Start 2P";
+    font-size: 0.7em;
+    color: var(--subtext-color);
+    margin-top: 10px;
+}
+
+.arrow {
+    font-size: 2em;
+    color: var(--subtext-color);
+    padding: 0 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input {
+    position: relative;
+    width: 100%;
+}
+
+.input__field {
+    width: 100%;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    font-family: "Press Start 2P";
+    font-size: 0.7em;
+}
+
+.input__label {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--subtext-color);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-size: 0.6em;
+    opacity: 0.8;
+}
+
+.input__field:focus + .input__label,
+.input__field:not(:placeholder-shown) + .input__label {
+    top: 0;
+    font-size: 0.6em;
+    background: var(--card-bg);
+    padding: 0 5px;
+    opacity: 1;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.btn-save, .btn-preview, .btn-save-workflow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Press Start 2P";
+    font-size: 0.6em;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    min-width: fit-content;
+}
+
+.btn-save:hover, .btn-preview:hover, .btn-save-workflow:hover {
+    background: var(--accent-color);
+    transform: translateY(-2px);
+}
+
+.workflow-definition {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.workflow-definition h3 {
+    font-family: "Press Start 2P";
+    font-size: 0.8em;
+    color: var(--subtext-color);
+    margin-bottom: 15px;
+}
+
+.definition-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#workflowDefinition {
+    width: 100%;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    font-family: "Press Start 2P";
+    font-size: 0.7em;
+    resize: vertical;
+}
+
+.definition-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+    background: var(--card-bg);
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--subtext-color);
+    cursor: pointer;
+}
+
+#previewContent {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    font-family: "Press Start 2P";
+    font-size: 0.7em;
+    white-space: pre-wrap;
+    color: var(--text-color);
+}
+
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-family: "Press Start 2P";
+    font-size: 0.7em;
+    animation: slideIn 0.3s ease-out;
+    z-index: 1000;
+}
+
+.notification.success {
+    background: var(--success-color);
+    color: white;
+}
+
+.notification.error {
+    background: var(--error-color);
+    color: white;
+}
+
+.success-animation {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    animation: bounce 0.5s ease infinite;
+    z-index: 1000;
+    background: transparent;
+}
+
+.bone-animation {
+    background: transparent;
+    display: inline-block;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+}
+
+@media (max-width: 768px) {
+    .tool-inputs {
+        flex-direction: column;
+    }
+    
+    .arrow {
+        transform: rotate(90deg);
+        padding: 20px 0;
+    }
+    
+    .modal-content {
+        width: 95%;
+        margin: 5% auto;
+    }
 }
