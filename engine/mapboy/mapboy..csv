@@ -1,0 +1,340 @@
+Extractor,UserAgent,Permission,Original,ExtractedUrl,Sitemap
+robots.txt,*,,User-agent: *,,
+robots.txt,*,,,,
+robots.txt,*,Disallow,Disallow: /*_activitystream,https://www.ubs.com/*_activitystream,
+robots.txt,*,Disallow,Disallow: /*_activity-stream,https://www.ubs.com/*_activity-stream,
+robots.txt,*,Disallow,Disallow: /*.activitystream,https://www.ubs.com/*.activitystream,
+robots.txt,*,Disallow,Disallow: /*.activity-stream,https://www.ubs.com/*.activity-stream,
+robots.txt,*,Disallow,Disallow: /*lu/en/assetmanagement,https://www.ubs.com/*lu/en/assetmanagement,
+robots.txt,*,Disallow,Disallow: /*de/en/assetmanagement,https://www.ubs.com/*de/en/assetmanagement,
+robots.txt,*,Disallow,Disallow: /*at/en/assetmanagement,https://www.ubs.com/*at/en/assetmanagement,
+robots.txt,*,Disallow,Disallow: /*hk/en/assetmanagement,https://www.ubs.com/*hk/en/assetmanagement,
+robots.txt,*,Disallow,Disallow: /*tc/en/assetmanagement,https://www.ubs.com/*tc/en/assetmanagement,
+robots.txt,*,Disallow,Disallow: /*?isPopup=,https://www.ubs.com/*?isPopup=,
+robots.txt,*,Disallow,Disallow: /*?isPrintPage=,https://www.ubs.com/*?isPrintPage=,
+robots.txt,*,Disallow,Disallow: /*?template=sitemap,https://www.ubs.com/*?template=sitemap,
+robots.txt,*,Disallow,Disallow: /*anlogin,https://www.ubs.com/*anlogin,
+robots.txt,*,Disallow,Disallow: /*block,https://www.ubs.com/*block,
+robots.txt,*,Disallow,Disallow: /*callmeback,https://www.ubs.com/*callmeback,
+robots.txt,*,Disallow,Disallow: /*campaign/,https://www.ubs.com/*campaign/,
+robots.txt,*,Disallow,Disallow: /*campaignwebApp/,https://www.ubs.com/*campaignwebApp/,
+robots.txt,*,Disallow,Disallow: /*configuration,https://www.ubs.com/*configuration,
+robots.txt,*,Disallow,Disallow: /*confirmation,https://www.ubs.com/*confirmation,
+robots.txt,*,Disallow,Disallow: /*error,https://www.ubs.com/*error,
+robots.txt,*,Disallow,Disallow: /*fallback-activitystream,https://www.ubs.com/*fallback-activitystream,
+robots.txt,*,Disallow,Disallow: /*functionalareas,https://www.ubs.com/*functionalareas,
+robots.txt,*,Disallow,Disallow: /*homepage.html,https://www.ubs.com/*homepage.html,
+robots.txt,*,Disallow,Disallow: /*homepage/cards,https://www.ubs.com/*homepage/cards,
+robots.txt,*,Disallow,Disallow: /*homepage/overlays/,https://www.ubs.com/*homepage/overlays/,
+robots.txt,*,Disallow,Disallow: /*html.html,https://www.ubs.com/*html.html,
+robots.txt,*,Disallow,Disallow: /*htmlactivitystream,https://www.ubs.com/*htmlactivitystream,
+robots.txt,*,Disallow,Disallow: /*httpd.html,https://www.ubs.com/*httpd.html,
+robots.txt,*,Disallow,Disallow: /*internethosting,https://www.ubs.com/*internethosting,
+robots.txt,*,Disallow,Disallow: /*investment-bank/ib-conferences,https://www.ubs.com/*investment-bank/ib-conferences,
+robots.txt,*,Disallow,Disallow: /*iPhone_Apps/,https://www.ubs.com/*iPhone_Apps/,
+robots.txt,*,Disallow,Disallow: /*legalinfo2.html,https://www.ubs.com/*legalinfo2.html,
+robots.txt,*,Disallow,Disallow: /*lightbox,https://www.ubs.com/*lightbox,
+robots.txt,*,Disallow,Disallow: /*login/,https://www.ubs.com/*login/,
+robots.txt,*,Disallow,Disallow: /*login.html,https://www.ubs.com/*login.html,
+robots.txt,*,Disallow,Disallow: /*magazines/archive,https://www.ubs.com/*magazines/archive,
+robots.txt,*,Disallow,Disallow: /*magazines/test,https://www.ubs.com/*magazines/test,
+robots.txt,*,Disallow,Disallow: /*mdscharts,https://www.ubs.com/*mdscharts,
+robots.txt,*,Disallow,Disallow: /*microsites/archive,https://www.ubs.com/*microsites/archive,
+robots.txt,*,Disallow,Disallow: /*microsites/ib-conferences/,https://www.ubs.com/*microsites/ib-conferences/,
+robots.txt,*,Disallow,Disallow: /*microsites/online_services_helps/,https://www.ubs.com/*microsites/online_services_helps/,
+robots.txt,*,Disallow,Disallow: /*microsites/test,https://www.ubs.com/*microsites/test,
+robots.txt,*,Disallow,Disallow: /*microsites/ums,https://www.ubs.com/*microsites/ums,
+robots.txt,*,Disallow,Disallow: /*microsites/we-online,https://www.ubs.com/*microsites/we-online,
+robots.txt,*,Disallow,Disallow: /*mobilecheck,https://www.ubs.com/*mobilecheck,
+robots.txt,*,Disallow,Disallow: /*mobilemicrosites/archive,https://www.ubs.com/*mobilemicrosites/archive,
+robots.txt,*,Disallow,Disallow: /*mobilemicrosites/test,https://www.ubs.com/*mobilemicrosites/test,
+robots.txt,*,Disallow,Disallow: /*mysite.html,https://www.ubs.com/*mysite.html,
+robots.txt,*,Disallow,Disallow: /*navigation,https://www.ubs.com/*navigation,
+robots.txt,*,Disallow,Disallow: /*noheader,https://www.ubs.com/*noheader,
+robots.txt,*,Disallow,Disallow: /*noindex,https://www.ubs.com/*noindex,
+robots.txt,*,Disallow,Disallow: /*nomobile,https://www.ubs.com/*nomobile,
+robots.txt,*,Disallow,Disallow: /*querystring,https://www.ubs.com/*querystring,
+robots.txt,*,Disallow,Disallow: /*recommendation,https://www.ubs.com/*recommendation,
+robots.txt,*,Disallow,Disallow: /*redirect,https://www.ubs.com/*redirect,
+robots.txt,*,Disallow,Disallow: /*rfa_library,https://www.ubs.com/*rfa_library,
+robots.txt,*,Disallow,Disallow: /*search.do?,https://www.ubs.com/*search.do?,
+robots.txt,*,Disallow,Disallow: /*search.html?querystring,https://www.ubs.com/*search.html?querystring,
+robots.txt,*,Disallow,Disallow: /*separator,https://www.ubs.com/*separator,
+robots.txt,*,Disallow,Disallow: /*Separator,https://www.ubs.com/*Separator,
+robots.txt,*,Disallow,Disallow: /*shared,https://www.ubs.com/*shared,
+robots.txt,*,Disallow,Disallow: /*Shared,https://www.ubs.com/*Shared,
+robots.txt,*,Disallow,Disallow: /*sitemap.html,https://www.ubs.com/*sitemap.html,
+robots.txt,*,Disallow,Disallow: /*spacer,https://www.ubs.com/*spacer,
+robots.txt,*,Disallow,Disallow: /*Spacer,https://www.ubs.com/*Spacer,
+robots.txt,*,Disallow,Disallow: /*title,https://www.ubs.com/*title,
+robots.txt,*,Disallow,Disallow: /*Title,https://www.ubs.com/*Title,
+robots.txt,*,Disallow,Disallow: /*undefined,https://www.ubs.com/*undefined,
+robots.txt,*,Disallow,Disallow: /*varnish,https://www.ubs.com/*varnish,
+robots.txt,*,Disallow,Disallow: /*au/en/wealth_management,https://www.ubs.com/*au/en/wealth_management,
+robots.txt,*,Disallow,Disallow: /*swissbank/clientela-privata/finanzieren/,https://www.ubs.com/*swissbank/clientela-privata/finanzieren/,
+robots.txt,*,Disallow,Disallow: /*swissbank/clientele-privee/finanzieren/,https://www.ubs.com/*swissbank/clientele-privee/finanzieren/,
+robots.txt,*,Disallow,Disallow: /*swissbank/private/finanzieren/,https://www.ubs.com/*swissbank/private/finanzieren/,
+robots.txt,*,Disallow,Disallow: /*swissbank/privatkunden/finanzieren/,https://www.ubs.com/*swissbank/privatkunden/finanzieren/,
+robots.txt,*,Disallow,Disallow: /*ch/de/swissbank/private/,https://www.ubs.com/*ch/de/swissbank/private/,
+robots.txt,*,Disallow,Disallow: /*ch/fr/swissbank/private/,https://www.ubs.com/*ch/fr/swissbank/private/,
+robots.txt,*,Disallow,Disallow: /*ch/it/swissbank/private/,https://www.ubs.com/*ch/it/swissbank/private/,
+robots.txt,*,Disallow,Disallow: /*ysp,https://www.ubs.com/*ysp,
+robots.txt,*,Disallow,Disallow: /1/,https://www.ubs.com/1/,
+robots.txt,*,Disallow,Disallow: /2/,https://www.ubs.com/2/,
+robots.txt,*,Disallow,Disallow: /4/,https://www.ubs.com/4/,
+robots.txt,*,Disallow,Disallow: /5/,https://www.ubs.com/5/,
+robots.txt,*,Disallow,Disallow: /6/,https://www.ubs.com/6/,
+robots.txt,*,Disallow,Disallow: /ap/,https://www.ubs.com/ap/,
+robots.txt,*,Disallow,Disallow: /bin/,https://www.ubs.com/bin/,
+robots.txt,*,Disallow,Disallow: /content,https://www.ubs.com/content,
+robots.txt,*,Disallow,Disallow: /di/,https://www.ubs.com/di/,
+robots.txt,*,Disallow,Disallow: /e/ebanking.html,https://www.ubs.com/e/ebanking.html,
+robots.txt,*,Disallow,Disallow: /fx/,https://www.ubs.com/fx/,
+robots.txt,*,Disallow,Disallow: /global/ur/,https://www.ubs.com/global/ur/,
+robots.txt,*,Disallow,Disallow: /pp/,https://www.ubs.com/pp/,
+robots.txt,*,Disallow,Disallow: /zz/,https://www.ubs.com/zz/,
+robots.txt,*,,,,
+robots.txt,*,Disallow,Disallow: /ch/*.pdf,https://www.ubs.com/ch/*.pdf,
+robots.txt,*,Disallow,Disallow: /*asset-management/*.pdf,https://www.ubs.com/*asset-management/*.pdf,
+robots.txt,*,Disallow,Disallow: /*asset_management/*.pdf,https://www.ubs.com/*asset_management/*.pdf,
+robots.txt,*,Allow,Allow: /au/*asset-management/*.pdf,https://www.ubs.com/au/*asset-management/*.pdf,
+robots.txt,*,Allow,Allow: /cn/*asset-management/*.pdf,https://www.ubs.com/cn/*asset-management/*.pdf,
+robots.txt,*,Allow,Allow: /hk/*asset-management/*.pdf,https://www.ubs.com/hk/*asset-management/*.pdf,
+robots.txt,*,Allow,Allow: /jp/*asset-management/*.pdf,https://www.ubs.com/jp/*asset-management/*.pdf,
+robots.txt,*,Allow,Allow: /sg/*asset-management/*.pdf,https://www.ubs.com/sg/*asset-management/*.pdf,
+robots.txt,*,Allow,Allow: /tw/*asset-management/*.pdf,https://www.ubs.com/tw/*asset-management/*.pdf,
+robots.txt,*,,,,
+robots.txt,*,,,,
+robots.txt,*,Allow,Allow: /content/dam/,https://www.ubs.com/content/dam/,
+robots.txt,*,Allow,Allow: /*clientlib*.min.js,https://www.ubs.com/*clientlib*.min.js,
+robots.txt,*,Allow,Allow: /*swissbank/ebanking-login.html,https://www.ubs.com/*swissbank/ebanking-login.html,
+robots.txt,*,Allow,Allow: /*0.0.sc_asc.html,https://www.ubs.com/*0.0.sc_asc.html,
+robots.txt,*,,,,
+robots.txt,Baiduspider,,User-agent: Baiduspider,,
+robots.txt,Baiduspider,Disallow,Disallow: /*microsites/ib-conferences/,https://www.ubs.com/*microsites/ib-conferences/,
+robots.txt,Baiduspider,,,,
+robots.txt,Baiduspider,Disallow,Sitemap: https://www.ubs.com/sitemap.xml,https://www.ubs.com/sitemap.xml,
+sitemap.xml,,,,https://www.ubs.com/sitemaps/homepages.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/global/de.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/global/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/global/es.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/global/fr.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/global/it.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/global/ja.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/global/ko.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/global/nl.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/global/pt.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/global/ru.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/global/sc.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/global/tc.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/ae/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/at/de.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/at/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/au/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/be/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/be/fr.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/be/nl.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/bh/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/br/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/br/pt.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/bs/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/ca/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/ch/de.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/ch/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/ch/fr.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/ch/it.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/cl/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/cl/es.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/cn/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/cn/sc.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/co/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/cy/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/cz/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/de/de.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/de/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/dk/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/es/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/es/es.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/fi/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/fr/fr.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/gr/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/hk/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/hk/sc.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/hk/tc.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/hu/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/id/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/ie/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/il/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/il/he.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/in/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/is/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/it/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/it/it.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/je/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/jp/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/jp/ja.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/kr/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/kr/ko.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/lb/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/li/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/li/de.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/lu/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/mc/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/mt/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/mx/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/mx/es.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/my/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/nl/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/nl/nl.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/no/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/nz/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/pa/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/ph/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/pt/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/pt/pt.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/qa/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/ru/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/ru/ru.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sa/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/se/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sg/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sg/sc.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sg/tc.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/th/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/tr/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/tw/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/tw/tc.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/uk/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/us/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/za/en.sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/locations-de.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/locations-en.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/locations-fr.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/locations-it.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-en.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-de.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-fr.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-it.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-ja.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-es.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-pt.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-ru.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-ko.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-sc.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-tc.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/news.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/marketnews.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/app/HA4/pre-rendered/sitemap.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/content/dam/static/tech/sitemap-assetmanagement-global-uk-temp.xml,https://www.ubs.com/sitemap.xml
+sitemap.xml,,,,https://www.ubs.com/sitemaps/homepages.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/global/de.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/global/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/global/es.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/global/fr.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/global/it.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/global/ja.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/global/ko.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/global/nl.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/global/pt.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/global/ru.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/global/sc.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/global/tc.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/ae/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/at/de.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/at/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/au/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/be/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/be/fr.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/be/nl.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/bh/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/br/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/br/pt.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/bs/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/ca/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/ch/de.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/ch/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/ch/fr.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/ch/it.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/cl/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/cl/es.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/cn/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/cn/sc.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/co/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/cy/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/cz/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/de/de.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/de/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/dk/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/es/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/es/es.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/fi/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/fr/fr.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/gr/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/hk/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/hk/sc.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/hk/tc.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/hu/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/id/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/ie/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/il/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/il/he.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/in/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/is/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/it/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/it/it.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/je/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/jp/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/jp/ja.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/kr/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/kr/ko.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/lb/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/li/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/li/de.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/lu/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/mc/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/mt/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/mx/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/mx/es.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/my/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/nl/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/nl/nl.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/no/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/nz/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/pa/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/ph/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/pt/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/pt/pt.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/qa/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/ru/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/ru/ru.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sa/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/se/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sg/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sg/sc.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sg/tc.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/th/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/tr/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/tw/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/tw/tc.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/uk/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/us/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/za/en.sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/locations-de.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/locations-en.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/locations-fr.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/locations-it.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-en.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-de.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-fr.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-it.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-ja.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-es.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-pt.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-ru.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-ko.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-sc.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/microsites-structured-tc.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/news.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/sitemaps/marketnews.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/app/HA4/pre-rendered/sitemap.xml,https://www.ubs.com/sitemap.xml.gz
+sitemap.xml,,,,https://www.ubs.com/content/dam/static/tech/sitemap-assetmanagement-global-uk-temp.xml,https://www.ubs.com/sitemap.xml.gz

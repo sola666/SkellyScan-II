@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skelly Builder 0.1.0</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="inputs.css">
+    <link rel="stylesheet" href="textinput.css">
+</head>
+
+<body style="padding:25px;margin-top:1em;">
+
+<div>
+    <div>
+        <header1>Skelly Builder 0.1.0 - Feb 2022</header1>
+    </div>
+</div>
+<div>
+    <subheader1>Workflow Creator</subheader1>
+</div>
+</span>
+<!--<div class="wrapper">-->
+<!--    <div class="first">-->
+<!--        <subheader1>SkellyScan Location</subheader1>-->
+<!--    </div>-->
+<!--    <div class="second">-->
+<!--        <form action="" method="POST" enctype="multipart/form-data">-->
+<!--            <input type="file" name="file" id="file"/>-->
+<!--            <label for="file" class="btn-3">-->
+<!--                <span>select</span>-->
+<!--            </label>-->
+<!--        </form>-->
+<!--    </div>-->
+<!--</div>-->
+<!--<script type="text/javascript">-->
+<!--    import {working} from './scripts/readinput.js';-->
+<!--    document.getElementById("file").onchange = function (e) {-->
+<!--        const x = document.getElementById("file").value;-->
+<!--        document.getElementById("workflowtool").value = x;-->
+<!--        alert('yes');-->
+<!--        this.value = null;-->
+<!--        working();-->
+<!--    }-->
+<!--</script>-->
+
+<div class="card card--inverted">
+    <h2>
+        <img src="assets/bone.png"
+             width="25"
+             height="25"/>
+        Action 1...
+    </h2>
+    <div class="fw">
+        <div class="ff">
+            <subheader1>Select Tool</subheader1>
+            <form action="" method="POST" enctype="multipart/form-data">
+                <input type="file" name="file" id="file"/>
+                <label for="file" class="btn-3">
+                    <span>select</span>
+                </label>
+            </form>
+        </div>
+<!--        <script>-->
+<!--            // import working from './scripts/readinput.js';-->
+
+<!--            document.getElementById("file").onchange = function (e) {-->
+<!--                const x = document.getElementById("file").value;-->
+<!--                if (x.length !== 0) {-->
+<!--                    document.getElementById("workflowtool").value = x.replace("C:\\fakepath\\", "") + " ";-->
+<!--                    this.value = null;-->
+<!--                }-->
+<!--                ;-->
+<!--                // var fReader = new FileReader();-->
+<!--                // var input = document.getElementById("file");-->
+<!--                // fReader.readAsDataURL(input.files[0]);-->
+<!--                // fReader.onloadend = function (event) {-->
+<!--                //     document.getElementById("workflowtool").value = event.target.result;-->
+<!--                // }-->
+<!--                // working();-->
+<!--            };-->
+<!--        </script>-->
+        <div class="ar">🠮
+        </div>
+        <div class="fs">
+            <subheader1>Add Parameters</subheader1>
+            <div>
+
+                <label class="input">
+                    <input class="input__field" name="workflowtool" id="workflowtool" type="text"
+                           placeholder="Workflow Parameters..."
+                           value=""/>
+                    <span class="input__label">Workflow Definition</span>
+                </label>
+                <div style="margin-top: -2.75em;width:200px; position: relative; margin-left: 75%">
+                    <div class="button-group" style="margin-top: -.35em;">
+                        <button type="button" onclick='addArgs()'>Save</button>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    let args = 1
+
+                    function addArgs() {
+                        const toolName = document.getElementById("file").value.replace("C:\\fakepath\\", ".\\engine\\");
+                        const thisTask = document.getElementById("workflowtool").value
+                        document.getElementById("file").value = null;
+                        document.getElementById("workflowtool").value = null;
+                        const addTask = `[${args}]\ntool=${toolName}\ntask=${thisTask}\n`
+                        document.getElementById("ParameterBox").value += addTask;
+                        args += 1;
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <subheader1>Workflow Definition</subheader1>
+</div>
+<div>
+    <textarea name="ParameterBox" id="ParameterBox" rows="10" cols="70"></textarea></div>
+<div class="button-group" style="margin-top: -.35em;">
+    <button type="button" style="color:white;" onclick='showBonyboy()'>.ini</button>
+</div>
+<script type="text/javascript">
+
+    function showBonyboy() {
+        let xylo = document.getElementById("xylo");
+        setTimeout(() => {
+            xylo.play();
+        },600);
+        let bb = document.getElementById("boneboy");
+        bb.classList.remove("success");
+        bb.classList.add("success");
+        document.getElementById("boneboy").style.display="block";
+        setTimeout(() => {
+            document.getElementById("boneboy").style.display = "none";
+            xylo.stop();
+        }, 4000);
+    }
+</script>
+<div class="success" id="boneboy" name="boneboy" style="display:none">
+    <audio id="xylo" src="assets/xylophone.mp3"></audio>
+
+</div>
+</body>
+
+
+</html>

@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Righteous&display=swap');
+@import url("https://rsms.me/inter/inter.css");
+
+@charset "UTF-8";
+[type=file] {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+
+
+}
+
+
+[type=file] + label {
+    background: #f15d22;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: inherit;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    outline: none;
+    margin-top: 15px;
+    /*padding: 1rem 3em;*/
+    text-align: center;
+    width:150px;
+    height:50px;
+    position: relative;
+    transition: all 0.3s;
+    vertical-align: center;
+}
+
+
+
+[type=file] + label.btn-3 {
+    font-family: "Press Start 2P";
+    text-align: center;
+    font-size: 14px;
+    background-color: #b443d0;
+    border-radius: 0;
+    overflow: hidden;
+
+}
+
+[type=file] + label.btn-3 span {
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    transition: all 0.3s;
+    vertical-align: center;
+    position: relative;
+    margin-top: 1em;
+    width: 100%;
+}
+
+[type=file] + label.btn-3::before {
+    text-align:center;
+    color: #fff;
+    content: "📁";
+    font-family: "Font Awesome 5 Pro";
+    vertical-align: middle;
+    font-size: 130%;
+    align-content: center;
+    height: 100%;
+    left: 0;
+    line-height: 2.6;
+    position: absolute;
+    top: -180%;
+    transition: all 0.3s;
+    width: 100%;
+
+}
+
+[type=file] + label.btn-3:hover {
+    background-color: #d09510;
+}
+
+[type=file] + label.btn-3:hover span {
+    transform: translateY(300%);
+}
+
+[type=file] + label.btn-3:hover::before {
+    top: 0;
+}
+
+/*body {*/
+/*    font-family: "Literata", serif;*/
+/*    font-size: 18px;*/
+/*    line-height: 1.3;*/
+/*    margin: 1rem 0;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.wrapper {*/
+/*    background-color: #fff;*/
+/*    border-radius: 1rem;*/
+/*    margin: 0 auto;*/
+/*    max-width: 500px;*/
+/*    padding: 2rem;*/
+/*    width: 100%;*/
+/*}*/
+
+.footer {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    margin-top: 3rem;
+}
+
+h1,
+p {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.7rem;
+}
+
+a {
+    color: #31c1ef;
+    text-decoration: none;
+}
+

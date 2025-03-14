@@ -1,0 +1,23 @@
+POST /u/eb/Login_Proc.serv HTTP/1.1
+Host: uat-cs-ap.ap-db-direct.db.com
+Cookie: miCookieOptOut=1; ssoLang=en; RABROWSER=5763616736873213757; RASESSION=7900893752818662464; wt_rla=286813086616891%2C5%2C1643897160180%3B868192610003433%2C1%2C1643894504845%3B165126124990956%2C1%2C1643897693626%3B310854331946025%2C2%2C1643898314359%3B519014083036689%2C6%2C1643898494778; DBDILANG=EN; JSESSIONID=jjlMh7pcbbjwrFWKz822Qw5p7b1hVQYG8vnT6JfNJm2lstn0Y21M!-1366884234!NONE; LOGIN_MODE=1; _WL_AUTHCOOKIE_JSESSIONID=OKtb8cSkBTouBCaU[6P7
+Content-Length: 537
+Cache-Control: max-age=0
+Sec-Ch-Ua: " Not;A Brand";v="99", "Microsoft Edge";v="97", "Chromium";v="97"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76
+Origin: https://uat-cs-ap.ap-db-direct.db.com
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://uat-cs-ap.ap-db-direct.db.com/u/eb/Login_Proc.serv
+Accept-Encoding: gzip, deflate
+Accept-Language: en-AU,en;q=0.9
+Connection: close
+
+URI=&sPasswd=E7GNVstiycxXpfOqrsb1C%2BiBVYZE0pcQ90UaN67Lz%2BjTXClzbrowXSYMtNEa17hLdWw5%2BhZf5Gccxb35U7iyq%2Fs0PxVB3%2Bl4dtlrhkHaybte4ZT0dG4wxrXlZZdTZfORPQ6v5CRUQEegTcFsX8ktzylhvh9GurIcxV%2BHQm81asU%3D&sPasswd2=RykMF2ndEfC5aZv1CS4EYvhRodpCigzkZ8GtrVYUEmcnsETy%2B401TLW8HyQ9z%2B%2FIKP0bPXXiluJFWveekpV8F1WXSpo%2Bnm4F5VRw3aeziSooDTxtEbwgGi2KUGX1ORCF3TYE0g9J3%2FPphzs4%2FY16h1wUWHMYtN5S7PlmlHeuTuQ%3D&sLoginMode=1&sName=aa&signature64=&OUT_SVHR_NAME=%2Fu%2Feb%2FLogin_Main.serv&SETLANG=EN&pisredirect=false&jvmVendor=&jreVersion=&Submit=Login

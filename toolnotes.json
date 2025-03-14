@@ -1,0 +1,22 @@
+{
+  "sublister": [
+    {}
+  ],
+  "ffuf": [
+    {}
+  ],
+  "xsstrike": [
+    {
+      "Read from file": "sqlmap -r {filename} -p {parameter to test}"
+    }
+  ],
+  "nuclei": [
+    {}
+  ],
+  "sqlmap": [
+    {}
+  ],
+  "httpx": [
+    {}
+  ]
+}

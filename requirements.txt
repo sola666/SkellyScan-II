@@ -1,0 +1,12 @@
+setuptools==60.8.1
+colorama~=0.4.4
+urllib3~=1.26.8
+future~=0.18.2
+requests~=2.27.1
+dnspython~=2.2.0
+pandas~=1.4.1
+numpy~=1.22.2
+cachetools~=5.0.0
+six~=1.16.0
+bs4~=0.0.1
+beautifulsoup4~=4.10.0
